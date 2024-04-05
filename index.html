@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link rel="stylesheet" href="paper.css">
+   
+</head>
+<body>
+    <div class="container">
+    <h1 style="margin-bottom: 90px; font-size: 48px; font-family: 'Press Start 2P';">
+        Rock <span>paper</span> scissors</h1>
+  
+    <button class="b" onclick="handleChoice('ROCK')">✊ ROCK</button>
+    <button class="b" onclick="handleChoice('PAPER')">✋ PAPER</button>
+    <button class="b" onclick="handleChoice('SCISSOR')">✌️ SCISSOR</button>
+    <div id="result">
+        <p id="yp">Wins: 0</p>
+        <p id="cp">Losses: 0</p>
+        <button style="background-color: #8a8a8a;" onclick="resetGame();">RESET</button>
+    </div>
+    <div class="whatchoosed" >
+        <div class="youc ycc"></div>
+        <div class="computerc ycc"></div>
+    </div>
+</div>
+    
+
+    <script src="scissor.js"></script>
+</body>
+</html>
