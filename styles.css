@@ -3,9 +3,8 @@
 }
 body {
     text-align: center;
-    background-color: rgb(6, 71, 115);
     background: linear-gradient(to right ,rgba(54, 10, 185, 0.662) , rgb(10, 150, 178));
-    /* background: linear-gradient(to right ,rgb(43, 5, 154) , rgb(0, 213, 255)); */
+/*     background: linear-gradient(to right ,rgb(43, 5, 154) , rgb(0, 213, 255)); */
 }
 button {
     background-color: #2cc9c1; 
@@ -61,4 +60,23 @@ span {
 }
 .ycc{
     padding: 5px;
+}
+@media ( max-width:500px){
+    body{
+     
+        background: rgb(0, 0, 0);
+    }
+    .container{
+        width: 35rem;
+        height: 600px;
+        border: 5px solid white;
+        
+      
+    }
+    .b{
+        display: block;
+       margin: 30px auto;
+       width: 200px;
+
+    }
 }
