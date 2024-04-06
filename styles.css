@@ -1,10 +1,12 @@
 *{
     user-select: none;
+
 }
 body {
     text-align: center;
+ 
     background: linear-gradient(to right ,rgba(54, 10, 185, 0.662) , rgb(10, 150, 178));
-/*     background: linear-gradient(to right ,rgb(43, 5, 154) , rgb(0, 213, 255)); */
+    /* background: linear-gradient(to right ,rgb(43, 5, 154) , rgb(0, 213, 255)); */
 }
 button {
     background-color: #2cc9c1; 
@@ -38,12 +40,12 @@ span {
 .container{
     background-color: rgba(230, 245, 197, 0.792);
     width: 60rem;
-    height: 60vh;
-    margin: auto;
-    padding: 10px;
 
+    height: 400px;
+    margin: auto;   
+    padding: 10px;
     border-radius: 30px;
-    margin-top: 5vh;
+    margin-top: 40px;
 }
 .whatchoosed{
     width: 60%;
